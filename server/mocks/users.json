@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "username": "Luke Skywalker",
+    "login": "luke",
+    "role": "admin",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "password": "LukeSkywalker2024"
+  },
+  {
+    "id": 2,
+    "username": "Leia Organa",
+    "login": "leia",
+    "role": "manager",
+    "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+    "password": "LeiaOrgana2024"
+  },
+  {
+    "id": 3,
+    "username": "Han Solo",
+    "login": "han",
+    "role": "user",
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+    "password": "HanSolo2024"
+  },
+  {
+    "id": 4,
+    "username": "Obi-Wan Kenobi",
+    "login": "obiwan",
+    "role": "admin",
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+    "password": "ObiWanKenobi2024"
+  },
+  {
+    "id": 5,
+    "username": "Yoda",
+    "login": "yoda",
+    "role": "user",
+    "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+    "password": "Yoda2024"
+  },
+  {
+    "id": 6,
+    "username": "Darth Vader",
+    "login": "vader",
+    "role": "user",
+    "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+    "password": "DarthVader2024"
+  },
+  {
+    "id": 7,
+    "username": "Admin Admin",
+    "login": "admin",
+    "role": "admin",
+    "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+    "password": "admin"
+  },
+  {
+    "id": 8,
+    "username": "Manager Manager",
+    "login": "manager",
+    "role": "manager",
+    "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+    "password": "manager"
+  },
+  {
+    "id": 9,
+    "username": "User User",
+    "login": "user",
+    "role": "user",
+    "avatar": "https://randomuser.me/api/portraits/women/43.jpg",
+    "password": "user"
+  }
+]

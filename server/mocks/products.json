@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Смартфон X1",
+    "description": "Мощный смартфон с отличной камерой и большим экраном.",
+    "image": "https://ir.ozone.ru/s3/multimedia-1-n/c1000/6924911639.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Ноутбук MacBook Pro 13",
+    "description": "Легкий и мощный ноутбук для работы и развлечений.",
+    "image": "https://avatars.mds.yandex.net/i?id=9e1c2124553717f2194dd690a3e1574d_l-5318538-images-thumbs&n=13"
+  },
+  {
+    "id": 3,
+    "title": "Комнатное растение Ficus",
+    "description": "Популярное комнатное растение для любого интерьера.",
+    "image": "https://i.pinimg.com/736x/8d/a6/e7/8da6e78fc083095e7394495e55a926ca.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Электрический гриль",
+    "description": "Удобный электрический гриль для приготовления пищи дома.",
+    "image": "https://avatars.mds.yandex.net/i?id=a40565f7ff6ce69f008e379c0b7acc96_l-4795551-images-thumbs&n=13"
+  },
+  {
+    "id": 5,
+    "title": "Беспроводные наушники",
+    "description": "Компактные и удобные наушники с хорошим качеством звука.",
+    "image": "https://cdn.vox-cdn.com/thumbor/lren0gH8DoOmwDY2x5AwFSBpKmk=/0x0:2040x1360/1400x933/filters:focal(813x626:1139x952):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/60718849/cwelch_200114_3847_0002.12.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Планшет A7",
+    "description": "Многофункциональный планшет с высоким разрешением экрана.",
+    "image": "https://avatars.mds.yandex.net/i?id=3b470b7ac22a4bb02a94dedd7b645568_l-5251383-images-thumbs&n=13"
+  },
+  {
+    "id": 7,
+    "title": "Умные часы Series 5",
+    "description": "Стильные умные часы с функциями отслеживания здоровья и фитнеса.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-q/6332500562.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Эспрессо машина",
+    "description": "Компактная эспрессо машина для приготовления ароматного кофе.",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-c/6316119108.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Кофейный столик",
+    "description": "Элегантный кофейный столик для вашего гостиного.",
+    "image": "https://ysp-web.ru/upload-1/imgs_1443-Светлый-роскошный-журнальный.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Велосипед горный X2",
+    "description": "Прочный и удобный горный велосипед для активного отдыха.",
+    "image": "https://all-bikes.ru/goods_img/_goods/b38fb72afd4ecbba620b318bc991e77d_large.jpg"
+  }
+]
