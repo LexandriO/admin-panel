@@ -12,9 +12,9 @@ const api = new Api("/api");
 const productStore = useProductStore();
 const { products } = storeToRefs(productStore);
 
-const productRepository = new ProductRepository();
+// const productRepository = new ProductRepository();
 
-const products = productRepository.index();
+// const products = productRepository.index();
 
 onMounted(() => productStore.fetchProducts(api));
 </script>
