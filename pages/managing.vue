@@ -1,18 +1,14 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import { storeToRefs } from "pinia";
-import { useProductStore } from "@/stores/productStore";
+import { ProductRepository } from "@/repositories/ProductRepository";
 import { ICONS } from "@/constants/icons";
-import { Api } from "@/api/Api";
 import { useProductForm } from "@/composables/useProductForm";
 import { type IProduct } from "@/types/entities/Product";
 
 definePageMeta({ middleware: ["auth", "admin-or-manager"] });
 
-const api = new Api("/api");
+const productRepository = new ProductRepository();
 
-const productStore = useProductStore();
-const { products } = storeToRefs(productStore);
+const products = await productRepository.index();
 
 const {
   isSheetOpen,
@@ -23,7 +19,7 @@ const {
   setUpdatedProduct,
   saveProduct,
   removeProduct,
-} = useProductForm(productStore);
+} = useProductForm();
 
 function onClickEditProduct(product: IProduct) {
   openSheet();
@@ -34,8 +30,6 @@ function onCloseSheet() {
   closeSheet();
   resetUpdatedProduct();
 }
-
-onMounted(() => productStore.fetchProducts(api));
 </script>
 
 <template lang="pug">
@@ -62,7 +56,7 @@ onMounted(() => productStore.fetchProducts(api));
               .managing-page__card-actions
                 .managing-edit-button(@click="onClickEditProduct(item)")
                   TheIcon(:name="ICONS.EDIT")
-                .managing-page__delete-button(@click="removeProduct(item)")
+                .managing-page__delete-button(@click="productRepository.delete(item.id)")
                   TheIcon(:name="ICONS.DELETE")
 
 teleport(to="body")
