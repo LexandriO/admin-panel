@@ -1,22 +1,11 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import { storeToRefs } from "pinia";
-import { Api } from "@/api/Api";
-import { useProductStore } from "@/stores/productStore";
 import { ProductRepository } from "@/repositories/ProductRepository";
 
 definePageMeta({ middleware: "auth" });
 
-const api = new Api("/api");
+const productRepository = new ProductRepository();
 
-const productStore = useProductStore();
-const { products } = storeToRefs(productStore);
-
-// const productRepository = new ProductRepository();
-
-// const products = productRepository.index();
-
-onMounted(() => productStore.fetchProducts(api));
+const products = await productRepository.index();
 </script>
 
 <template lang="pug">

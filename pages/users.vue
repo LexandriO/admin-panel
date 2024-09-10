@@ -1,19 +1,11 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
-import { Api } from "@/api/Api";
-import { storeToRefs } from "pinia";
-import { useUserStore } from "@/stores/userStore";
+import { UserRepository } from "@/repositories/UserRepository";
 
 definePageMeta({ middleware: ["auth", "admin"] });
 
-const api = new Api("/api");
+const userRepository = new UserRepository();
 
-const userStore = useUserStore();
-const { users } = storeToRefs(userStore);
-
-onMounted(() => {
-  userStore.fetchUsers(api);
-});
+const users = await userRepository.index();
 </script>
 
 <template lang="pug">
